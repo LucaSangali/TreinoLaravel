@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('ola/{nome}', [TestController::class, 'index']);
+Route::get('notas', [TestController::class, 'notas']);
