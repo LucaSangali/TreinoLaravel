@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function index()
+    public function index($nome)
     {
-        return "Olá Mundo!";
+
+        return "<html><head><title>Olá</title></head><body>Olá $nome!</div></body></html>";
+
     }
 }
